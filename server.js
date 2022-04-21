@@ -24,6 +24,13 @@ for (const file of reader) {
   });
 }
 
+bot.command({
+name:"eval",
+code:`
+$eval[$message[1]]
+$onlyForIDs[$botOwnerID;]
+`
+  })
 
 const voice = new aoijs.Voice(bot, {
   soundcloud: {
