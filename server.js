@@ -23,3 +23,14 @@ for (const file of reader) {
     
   });
 }
+
+
+const voice = new aoijs.Voice(bot, {
+  soundcloud: {
+    //clientId: "SoundCloud clientID", //remove the double slash if you want soundcloud
+  },
+  cache: {
+    cacheType: "Memory",//Disk | None
+    enabled: true,
+  },
+}, false); //true or false for pruneMusic

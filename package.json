@@ -4,7 +4,8 @@
   },
   "dependencies": {
     "aoi.js": "^5.1.2",
-    "opusscript": "^0.0.8"
+    "opusscript": "^0.0.8",
+    "@akarui/aoi.music": "^1.0.2"
   },
   "engines": {
     "node": "16.x"
